@@ -18,7 +18,7 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: nidhisarup8953/nginx:latest
+      - image: nidhisarup8953/nids-alpine:latest
         name: flaskdemo
         resources: {}
 status: {}
